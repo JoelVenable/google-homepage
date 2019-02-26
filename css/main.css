@@ -1,0 +1,58 @@
+body {
+  font-family: "Leto";
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  margin: 14px 18px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  line-height: 27px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+.footer-link {
+  color: #222;
+}
